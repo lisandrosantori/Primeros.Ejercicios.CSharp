@@ -1,0 +1,15 @@
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\bin\Debug\net6.0\Condionales.exe
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\bin\Debug\net6.0\Condionales.deps.json
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\bin\Debug\net6.0\Condionales.runtimeconfig.json
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\bin\Debug\net6.0\Condionales.dll
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\bin\Debug\net6.0\Condionales.pdb
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\obj\Debug\net6.0\Condionales.csproj.AssemblyReference.cache
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\obj\Debug\net6.0\Condionales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\obj\Debug\net6.0\Condionales.AssemblyInfoInputs.cache
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\obj\Debug\net6.0\Condionales.AssemblyInfo.cs
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\obj\Debug\net6.0\Condionales.csproj.CoreCompileInputs.cache
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\obj\Debug\net6.0\Condionales.dll
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\obj\Debug\net6.0\refint\Condionales.dll
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\obj\Debug\net6.0\Condionales.pdb
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\obj\Debug\net6.0\Condionales.genruntimeconfig.cache
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp1\Condionales\obj\Debug\net6.0\ref\Condionales.dll
