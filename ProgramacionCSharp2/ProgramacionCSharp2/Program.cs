@@ -1,4 +1,6 @@
-﻿/* Ejercicio 1 - Implementar en funciones todos los ejericios de C# anteriores.
+﻿/* ----------- FUNCIONES -----------  */
+
+/* Ejercicio 1 - Implementar en funciones todos los ejericios de C# anteriores.
 a) En Variables.cs
     i.   int suma(int a, int b)
     ii.  int resta(int a, int b)
@@ -141,6 +143,8 @@ string CambiarCaracteres(string cadena)
 }
 
 */
+
+/* ----------- ARREGLOS -----------  */
 
 /* Ejercicio 1 - Implementar el codigo del ejemplo y probarlo.
 
@@ -362,8 +366,267 @@ double Minimo()
 	c) Mostrar sólo los mensajes comenzados con la letra "A".
 	d) Mostrar sólo los mensajes que contenga "sa".
 	e) Mostrar en un sólo string todos los mensajes separados por ", ".
+
+
+string[] cadenas;
+
+Cargar();
+Console.WriteLine("Se muestran por consola las cadenas cargadas");
+Mostrar();
+Console.WriteLine("Se muestran las cadenas comenzadas con 'A'");
+ComienzoA();
+Console.WriteLine("Las cadenas que contiene 'sa' son");
+ContengaSa();
+Console.WriteLine("Estas son todas las cadenas separas por ','");
+MostrarTodo();
+
+void Cargar()
+{
+    cadenas = new string[5];   
+    for(int i = 0; i < cadenas.Length; i++)
+    {
+        Console.Write($"Ingresar la {i+1}° cadena: ");
+        cadenas[i] = Console.ReadLine();
+    }
+}
+void Mostrar()
+{
+    for(int i = 0; i < cadenas.Length; i++)
+    {
+        Console.WriteLine(cadenas[i]);
+    }
+}
+void ComienzoA()
+{
+    
+    for(int i=0; i < cadenas.Length; i++)
+    {
+        if (cadenas[i].Substring(0, 1) == "A")
+        {
+            Console.WriteLine(cadenas[i]);
+        }            
+    }
+    
+}
+void ContengaSa()
+{
+    
+    for(int i = 0; i < cadenas[i].Length; i++)
+    {
+        for (int j = 0; j < (cadenas[i].Length-1); j++)
+        {
+            if (cadenas[i].Substring(j, 2) == "sa")
+            {
+                Console.WriteLine(cadenas[i]);                
+            }
+        }
+    }
+}
+void MostrarTodo()
+{
+    for(int i = 0; i < cadenas.Length; i++)
+    {
+        if (i < (cadenas.Length - 1))
+            Console.Write($"{cadenas[i]}, ");            
+        else
+            Console.Write($"{cadenas[i]}. ");
+    }
+}
+
 */
 
+/* Ejercicio 6 - Dado un vector de 10 números mostrar por pantalla los números pero en orden inverso al que fueron cargados. 
+ * Función Cargar() y Reverso()
 
+int[] numeros;
+int[] reverso;
+
+Cargar();
+Reverso();
+
+
+void Cargar()
+{
+    numeros = new int[10];
+    for (int i = 0; i < numeros.Length; i++)
+    {
+        numeros[i] = int.Parse(Console.ReadLine());
+    }
+}
+void Reverso()
+{
+    reverso = new int[10];
+    int j = (reverso.Length - 1);
+    for (int i = 0; i < numeros.Length; i++)
+    {
+        reverso[j] = numeros[i];
+        j--;
+    }
+    for (int i = 0; i < numeros.Length; i++)
+    {
+        Console.WriteLine(reverso[i]);
+    }
+}
+*/
+
+/* ----------- COLECCIONES - GENERICS - LISTAS - FOREACH -----------  */
+
+/* Ejercicio 1 - Implementar el código de ejemplo y probarlo
+
+// Listas
+
+List<string> productosNombre = new List<string>()
+{
+    "HP X89",
+    "HP X091"
+};
+
+List<string> marcas = new List<string>();
+// Añadir un elemento
+marcas.Add("Lenovo JH43948");
+// Añadir una lista a otra lista
+marcas.AddRange(productosNombre); // Se agrega la lista de productosnombres a marcas
+
+// Foreach
+
+List<int> secuencia = new List<int> {1, 2, 4, 5, 10};
+
+foreach (var n in secuencia)
+{
+    if (n % 2 == 0)
+        Console.WriteLine($"{n + 2}");
+    else
+        Console.WriteLine($"{n - 2}");
+}
+*/
+
+/* Ejercicio 2 - Crear una lista de enteros llamadas numeros
+	a) Cargar una lista de 10 números enteros por teclado
+	b) Mostrarlos por pantalla
+	c) Calcular el promedio de todos los números de la lista.
+	d) Calcular la suma de los cuadrados.
+	e) Genera otra lista llamada Enteros con los números del 1 al 100.
+		- En base a esta generar otra lista llamada F formado de la siguiente manera: (NO SE QUE PIDE)
+			* F(1) = F(2) = 1
+			* F(3) = 2
+			* F(n) = F(n-1) + F(n-2)
+
+
+List<int> numeros = new List<int>(); //{ 5, 15, 46, 48, 57, 49, 12, 15, 16, 2 };
+List<int> enteros = new List<int>(100);
+Cargar();
+
+Mostrar();
+
+Console.WriteLine($"El promedio es: {Promedio()}");
+
+Console.WriteLine($"La suma de los cuadrados es: {SumaCuadrados()}");
+
+Cargar1a100();
+
+MostrarNros();
+
+void Cargar()
+{
+    for(int i = 0; i < 10; i++)
+    {
+        Console.Write($"Cargar el {i+1}° valor: ");
+        numeros.Add(int.Parse(Console.ReadLine()));
+    }
+}
+void Mostrar()
+{
+    Console.WriteLine("Los números de la lista son: ");
+    foreach(int n in numeros)
+    {
+        Console.WriteLine(n);
+    }
+}
+float Promedio()
+{
+    float suma = 0, promedio = 0;
+    for (int i = 0; i < 10; i++)
+    {        
+        suma += numeros[i];
+    }
+    promedio = suma/10;
+
+    return promedio;
+}
+double SumaCuadrados()
+{
+    double suma = 0;
+    for (int i = 0; i < 10; i++)
+    {
+        suma += Math.Pow(numeros[i],2);
+    }
+    return suma;
+}
+void Cargar1a100()
+{
+    int numeros = 0;
+    while (numeros < 100)
+    {
+        numeros++;
+        enteros.Add(numeros);
+        
+    }
+    
+}
+void MostrarNros()
+{
+    for (int i = 0; i < enteros.Count; i++)
+    {
+        Console.WriteLine(enteros[i]);
+    }
+}
+
+NO ENTENDI EL "E" INSISO 2...
+
+*/
+
+/* Ejercicio 3 - Generar un programa que genere textos aleatorios
+	- Crear una lista llamada Palabras. -- PalabrasAleatorias --
+	- Cargar con 10 palabras.
+	- Recorrerla y mostrar la lista de palabras en forma aleatoria
+		- Pista: Usar acceso por índice y la función random().
+
+Random rnd = new Random();
+List<string> Abecedario = new List<string> {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+List<string> PalabrasAleatorias = new List<string>(10);
+
+TextoAleatorio();
+
+Console.WriteLine("Estas son las palabras aleatorias formadas: ");
+Mostrar();
+
+int NumeroRandom()
+{
+    int numero = 0;
+    numero = rnd.Next(26);
+    return numero;
+}
+void TextoAleatorio()
+{
+    
+    for(int i = 0; i < 10; i++)
+    {
+        string palabra = "";
+        for (int j = 0; j < (NumeroRandom()+1); j++) 
+        {            
+            palabra = palabra + Abecedario[NumeroRandom()];
+        }
+        PalabrasAleatorias.Add(palabra);
+    }
+}
+void Mostrar()
+{
+    for(int i = 0; i < PalabrasAleatorias.Count; i++)
+    {
+        Console.WriteLine(PalabrasAleatorias[i]);
+    }
+}
+
+*/
 
 
