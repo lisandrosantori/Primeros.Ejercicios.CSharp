@@ -1,0 +1,16 @@
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\net5.0\EjerciciosCSharp.exe
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\net5.0\EjerciciosCSharp.deps.json
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\net5.0\EjerciciosCSharp.runtimeconfig.json
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\net5.0\EjerciciosCSharp.runtimeconfig.dev.json
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\net5.0\EjerciciosCSharp.dll
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\bin\Debug\net5.0\EjerciciosCSharp.pdb
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\net5.0\EjerciciosCSharp.csproj.AssemblyReference.cache
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\net5.0\EjerciciosCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\net5.0\EjerciciosCSharp.AssemblyInfoInputs.cache
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\net5.0\EjerciciosCSharp.AssemblyInfo.cs
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\net5.0\EjerciciosCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\net5.0\EjerciciosCSharp.dll
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\net5.0\refint\EjerciciosCSharp.dll
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\net5.0\EjerciciosCSharp.pdb
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\net5.0\EjerciciosCSharp.genruntimeconfig.cache
+C:\Users\Lisandro\fuentes\Mis-proyectos\EjerciciosCSharp\EjerciciosCSharp\obj\Debug\net5.0\ref\EjerciciosCSharp.dll

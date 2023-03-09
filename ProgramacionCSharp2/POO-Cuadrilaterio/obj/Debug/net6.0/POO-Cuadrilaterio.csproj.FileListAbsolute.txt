@@ -1,0 +1,15 @@
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\obj\Debug\net6.0\POO-Cuadrilaterio.csproj.AssemblyReference.cache
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\obj\Debug\net6.0\POO-Cuadrilaterio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\obj\Debug\net6.0\POO-Cuadrilaterio.AssemblyInfoInputs.cache
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\obj\Debug\net6.0\POO-Cuadrilaterio.AssemblyInfo.cs
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\obj\Debug\net6.0\POO-Cuadrilaterio.csproj.CoreCompileInputs.cache
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\bin\Debug\net6.0\POO-Cuadrilaterio.exe
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\bin\Debug\net6.0\POO-Cuadrilaterio.deps.json
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\bin\Debug\net6.0\POO-Cuadrilaterio.runtimeconfig.json
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\bin\Debug\net6.0\POO-Cuadrilaterio.dll
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\bin\Debug\net6.0\POO-Cuadrilaterio.pdb
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\obj\Debug\net6.0\POO-Cuadrilaterio.dll
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\obj\Debug\net6.0\refint\POO-Cuadrilaterio.dll
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\obj\Debug\net6.0\POO-Cuadrilaterio.pdb
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\obj\Debug\net6.0\POO-Cuadrilaterio.genruntimeconfig.cache
+C:\Users\Lisandro\fuentes\Ejercicios-presentaciones\ProgramacionCSharp2\POO-Cuadrilaterio\obj\Debug\net6.0\ref\POO-Cuadrilaterio.dll
